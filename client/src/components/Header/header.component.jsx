@@ -2,11 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import './header.styles.scss';
-import logo from '../../assets/aitNoEarth.png';
+// import logo from '../../assets/aitNoEarth.png';
 const Header = () => (
     <div className='header'>
         <Link className='logo-container' to="/">
-            <img className='nav-logo' src={logo} alt='Logo' />
+            <h2>LOGO</h2>
         </Link>
         <div className='options'>
             <Link className='option' to='/'>
@@ -24,7 +24,6 @@ const Header = () => (
             <Link className='option' to='/contact'>
                 CONTACT
             </Link>
-            <h3><i class="fas fa-phone"></i>1-868-644-1088</h3>
         </div>
     </div>
 );

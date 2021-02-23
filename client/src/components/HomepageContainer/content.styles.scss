@@ -42,22 +42,22 @@
     color: white;
 
 
-    .bus{
-        background-image: url('../../assets/business.jpg');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-blend-mode: darken;
-        background-color: rgba(32,31,31,0.712);
-        }
-    .res{
-        background-image: url('../../assets/office-work.jpg');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-blend-mode: darken;
-        background-color: rgba(32,31,31,0.712);
-        }
+    // .bus{
+    //     background-image: url('../../assets/business.jpg');
+    //     background-position: center;
+    //     background-repeat: no-repeat;
+    //     background-size: cover;
+    //     background-blend-mode: darken;
+    //     background-color: rgba(32,31,31,0.712);
+    //     }
+    // .res{
+    //     background-image: url('../../assets/office-work.jpg');
+    //     background-position: center;
+    //     background-repeat: no-repeat;
+    //     background-size: cover;
+    //     background-blend-mode: darken;
+    //     background-color: rgba(32,31,31,0.712);
+    //     }
     .job-box{
         display: flex;
         height: 100%;
@@ -83,13 +83,13 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     width: 100%;
-    .about-img{
-        // background-color: rosybrown;
-        background-image: url('./logo1.jpeg');
-        background-position: center;
-        background-size: 70%;
-        background-repeat: no-repeat;
-    }
+    // .about-img{
+    //     // background-color: rosybrown;
+    //     background-image: url('./logo1.jpeg');
+    //     background-position: center;
+    //     background-size: 70%;
+    //     background-repeat: no-repeat;
+    // }
     .about-info{
         display: flex;
         flex-direction: column;

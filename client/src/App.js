@@ -3,7 +3,8 @@ import SimpleStorageContract from "./contracts/SimpleStorage.json";
 // import getWeb3 from "./getWeb3";
 
 import HomePage from "./pages/homepage/homepage.component";
-
+import Header from "./components/Header/header.component";
+import Footer from "./components/Footer/footer.component";
 
 import "./App.css";
 
@@ -58,7 +59,9 @@ class App extends Component {
     // }
     return (
       <div className="App">
-
+        <Header />
+        <HomePage />
+        <Footer />
       </div>
     );
   }
